@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:open-to-other-editor-group.helloWorld"
+		"onCommand:open-to-other-editor-group.openToOtherEditorGroup"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "open-to-other-editor-group.helloWorld",
-				"title": "Hello World"
+				"command": "open-to-other-editor-group.openToOtherEditorGroup",
+				"title": "Open to Other Editor Group"
 			}
 		]
 	},
