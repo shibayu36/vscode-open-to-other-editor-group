@@ -1,12 +1,17 @@
 {
   "name": "open-to-other-editor-group",
-  "displayName": "open-to-other-editor-group",
-  "description": "",
+  "displayName": "Open to Other Editor Group",
+  "description": "Open a selected file to next to active editor group",
   "publisher": "shibayu36",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.50.0"
-  },
+	},
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/shibayu36/vscode-open-to-other-editor-group"
+	},
+	"homepage": "https://github.com/shibayu36/vscode-open-to-other-editor-group",
   "categories": [
     "Other"
   ],
