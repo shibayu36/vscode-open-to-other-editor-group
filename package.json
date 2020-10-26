@@ -12,6 +12,7 @@
     "url": "https://github.com/shibayu36/vscode-open-to-other-editor-group"
 	},
 	"homepage": "https://github.com/shibayu36/vscode-open-to-other-editor-group",
+	"license": "MIT",
   "categories": [
     "Other"
   ],
