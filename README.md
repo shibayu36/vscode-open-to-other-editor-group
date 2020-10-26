@@ -2,6 +2,8 @@
 
 This is a Visual Studio Code extension that makes it easily to open a selected file to next to active editor group.
 
+![Demo](images/demo.gif)
+
 ## Commands
 ### Open to Other Editor Group
 Open selected file to a different editor group than the one you are currently focus on.  This is inspired by "Open to the Side" menu command.  This command doesn't create a large number of editor group, unlike "Open to the Side".
