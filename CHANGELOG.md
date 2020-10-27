@@ -1,5 +1,8 @@
 # Change Log
 
+## v0.1.2
+- [nit] Make demo image path absolutely to be able to show image in Visual Studio Marketplace
+
 ## v0.1.1
 - Add demo gif
 

@@ -3,7 +3,7 @@
   "displayName": "Open to Other Editor Group",
   "description": "Open a selected file to next to active editor group",
   "publisher": "shibayu36",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "vscode": "^1.50.0"
 	},
