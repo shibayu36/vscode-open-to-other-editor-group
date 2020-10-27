@@ -2,7 +2,7 @@
 
 This is a Visual Studio Code extension that makes it easily to open a selected file to next to active editor group.
 
-![Demo](images/demo.gif)
+![Demo](https://github.com/shibayu36/vscode-open-to-other-editor-group/blob/main/images/demo.gif)
 
 ## Commands
 ### Open to Other Editor Group
