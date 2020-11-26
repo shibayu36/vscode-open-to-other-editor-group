@@ -24,8 +24,10 @@ export function activate(context: vscode.ExtensionContext) {
 export function deactivate() {}
 
 async function openToOtherEditorGroup(): Promise<void> {
+  const clipboardTextBefore = await vscode.env.clipboard.readText();
   await vscode.commands.executeCommand("copyFilePath");
   const filename = await vscode.env.clipboard.readText();
+  await vscode.env.clipboard.writeText(clipboardTextBefore);
 
   let uri: vscode.Uri;
   try {
