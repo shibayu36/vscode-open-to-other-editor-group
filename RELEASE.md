@@ -1,4 +1,4 @@
-* `git checkout master && git pull`
+* `git checkout main && git pull`
 * Edit `version` in package.json.
 * Add version history to CHANGELOG.md
 * `vsce package`
