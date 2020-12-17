@@ -45,13 +45,13 @@ async function openToOtherEditorGroup(): Promise<void> {
   let columnToOpen: number;
   if (editors.length <= 1) {
     // If there is only one editor group, create a second one.
-    columnToOpen = -2;
+    columnToOpen = vscode.ViewColumn.Beside;
   } else if (activeEditor.viewColumn === editors.length) {
     // If you are in the last editorGroup, show in the first editorGroup
-    columnToOpen = 1;
+    columnToOpen = vscode.ViewColumn.One;
   } else {
     // Show in the next editorGroup
-    columnToOpen = activeEditor.viewColumn ? activeEditor.viewColumn + 1 : 1;
+    columnToOpen = activeEditor.viewColumn ? activeEditor.viewColumn + 1 : vscode.ViewColumn.One;
   }
 
   await vscode.commands.executeCommand("vscode.open", uri, { viewColumn: columnToOpen });
