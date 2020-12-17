@@ -54,5 +54,5 @@ async function openToOtherEditorGroup(): Promise<void> {
     columnToOpen = activeEditor.viewColumn ? activeEditor.viewColumn + 1 : 1;
   }
 
-  await vscode.commands.executeCommand("vscode.open", uri, columnToOpen);
+  await vscode.commands.executeCommand("vscode.open", uri, { viewColumn: columnToOpen });
 }
