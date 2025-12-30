@@ -5,3 +5,4 @@
 * `code --install-extension open-to-other-editor-group-x.y.z.vsix` and check the operation.
 * `git add package.json CHANGELOG.md && git commit && git tag vx.y.z && git push && git push --tags`
 * `vsce publish`
+* `OVSX_PAT="..." npx ovsx publish --yarn`
